@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name ="description" content="Full stack web devloper,problem solver">
@@ -9,65 +9,38 @@
     <meta name="google-site-verification" content="izTfC3DM3asL22T9t_XrhCtqfQqv6k6LdBCVwKbH0GA" />
     <title>Ankan Das - Personal Website</title>
     <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header>
-        <h1>Ankan Das</h1>
-        <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+
+    <header class ="header">
+        <a href="" class="logo">Ankan.</a>
+
+        <nav class ="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <main>
-        <img src="https://kinsta.com/dk/wp-content/uploads/sites/12/2020/09/wordpress-survey-plugins-360x180.jpg" width="700" height="200"></img>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hi, I'm Ankan Das, a student of Heritage Institute of Technology Kolkata pursuing my Bachelor's degree in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning.</p>
-		<p>I have always been fascinated by web development and have been exploring various technologies and frameworks to enhance my skills in this field. Apart from web development, I also have a keen interest in exploring new technologies and tools related to AI and ML.</p>
-		<p>During my academic journey, I have been involved in various projects and hackathons that have helped me gain hands-on experience in different domains of computer science. I am always looking for new opportunities to learn and grow.</p>
-		<p>When I'm not coding, I enjoy reading books, playing video games, and exploring new places.</p>
-        <p>I solved 25 question on <a href="https://leetcode.com/adas34965/">Leadcode</a>.</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: C, C++, HTML, CSS</li>
-                <li>Frameworks: Bootstrap, React</li>
-                <li>Tools: Visual Studio Code, Git, GitHub</li>
-                <li>Database: MySQL, MongoDB</li>
-                <li>Operating Systems: Windows, Linux</li>
-                <li>problem solving</li>
-            </ul>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="#">Project 1</a></li>
-                <li><a href="#">Project 2</a></li>
-                <li><a href="#">Project 3</a></li>
-                <li>NOT MADE YET IT IS MY FIRST PROJECT.</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form action="#">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Ankan Das</h1>
+            <h3>Frontend Devloper</h3>
+            <p>I have always been fascinated by web development and have been exploring various technologies and frameworks to enhance my skills in this field. Apart from web development, I also have a keen interest in exploring new technologies and tools related to AI and ML.</p>
+            <p>When I'm not coding, I enjoy reading books, playing video games, and exploring new places.</p>
+            <div class="btn-box">
+                <a href="mailto:adas34965@gmail.com">Hire Me</a>
+                <a href="mailto:adas34965@gmail.com">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="https://www.facebook.com/profile.php?id=100052460716847"><i class='bx bxl-facebook'></i></a>
+            <a href="https://twitter.com/adas34965"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/ankan-das-b3ba4022b/"><i class='bx bxl-linkedin'></i></a> 
 
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
+    </section>
     <footer>
         <p>&copy; 2023 Ankan Das</p>
     </footer>
